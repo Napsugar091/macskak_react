@@ -13,6 +13,12 @@ function Macskak() {
                 <h1>
                     {macska.id}
                 </h1>
+                <h2>
+                    {macska.name}
+                </h2>
+                <h2>
+                    {macska.country}
+                </h2>
                 <img className="kep" src={macska.kepUrl} alt={macska.id}/>
                 <p>
                     {macska.description}
