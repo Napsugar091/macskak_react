@@ -40,7 +40,7 @@
 body{
   margin-left: 35%;
   background-image: url('catpaw.jpg');
-  color: rgb(255, 102, 0);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: bold;
   width: 20%;
@@ -51,4 +51,9 @@ body{
 img{
   border: black solid 3px;
   border-radius: 30%;
+}
+
+p, h1, h2{
+  background-color: rgba(78, 145, 87, 0.61) ;
+  border-radius: 10%;
 }
